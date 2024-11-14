@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Prime NG Table CSS */
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 0.3rem 0.5rem !important;
+}
+
+.p-datatable .p-datatable-header {
+  padding: 0.4rem 0.4rem !important;
+}
+
+body .p-dropdown .p-dropdown-label,
+body .p-dropdown .p-dropdown-label.p-placeholder,
+.p-dropdown.p-dropdown-clearable .p-dropdown-label {
+  padding: 3px 0.75rem !important;
+}
+
+/* Row Hover */
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background: #99c1ec !important;
+}
+
+.p-datatable.p-datatable-hoverable-rows
+  .p-datatable-tbody
+  > tr:not(.p-highlight):hover {
+  background: #d8d0e7 !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  font-size: 11px !important;
+}
+
+.p-datatable.p-datatable-gridlines:has(.p-datatable-thead):has(
+    .p-datatable-tbody
+  )
+  .p-datatable-tbody
+  > tr
+  > td {
+  font-size: 11px;
+  // border-width: 0 0 1px 1px;
+}
+
+.p-datatable .p-datatable-sm .p-datatable-tbody > tr > td {
+  font-size: 11px !important;
+}
+
+.p-button {
+  padding: 0.25rem 0.7rem !important;
+  font-size: 10px !important;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 0.8rem !important;
+}
+
+.p-dialog .p-dialog-content {
+  padding: 0 1.1rem 1rem 1rem !important;
+}
+
+.p-datatable.p-datatable-gridlines .p-paginator-bottom {
+  font-size: 11px !important;
+}
+
+.p-tabview-title {
+  line-height: 0.2;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.p-panel.p-panel-toggleable .p-panel-header {
+  padding: 0.25rem 1rem !important;
+}
+
+.p-panel-title {
+  font-size: 12px !important;
+}
+
+.p-paginator {
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+
+.p-paginator .p-dropdown {
+  height: 2rem !important;
+}
+
+.p-panel .p-panel-content {
+  padding: 0.8rem !important;
+}
+
+.p-fileupload-row {
+  font-size: 12px;
+}
+
+.p-fileupload .p-fileupload-buttonbar {
+  padding: 0.4rem !important;
+}
+
+.p-fileupload .p-fileupload-content {
+  padding: 0.8rem 0.8rem !important;
+}

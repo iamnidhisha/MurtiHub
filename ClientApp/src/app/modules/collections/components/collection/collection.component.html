@@ -1,0 +1,17 @@
+<div class="card-container">
+  <div class="card" *ngFor="let item of categoryData">
+    <div class="image-container">
+      <img [src]="item.image" alt="Product Image" class="primary-image" />
+      <img [src]="item.hoverImage" alt="Hover Image" class="hover-image" />
+    </div>
+    <div class="card-content">
+      <!-- <h5>{{ item.title }}</h5> -->
+      <div class="rating">★★★★★</div>
+      <div class="price">
+        <span class="original-price">Rs. {{ item.originalPrice }}</span>
+        <span class="sale-price">Rs. {{ item.sellingPrice }}</span>
+      </div>
+      <!-- <button class="choose-options">Choose options</button> -->
+    </div>
+  </div>
+</div>
